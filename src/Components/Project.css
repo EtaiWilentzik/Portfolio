@@ -1,0 +1,127 @@
+
+
+.project {
+  display: flex;
+  align-items: center;
+  position: relative;
+  min-height: 500px;
+  margin: 9.6rem 0;
+}
+.project:nth-child(2) {
+  margin-top: 0
+}
+
+
+
+.project-image {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+    width: 70%;
+  aspect-ratio: 16 / 9;        /* Keeps correct shape */
+    border-radius: 10px;
+  filter: brightness(0.75);
+}
+.project-section {
+ padding: 15.6rem 0;
+}
+
+.project-content {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width:45%;
+  padding: 2.75rem;
+  background-color: var(--surface-dark);
+  color: var(white);
+  padding: 3rem;
+  border-radius: 1.2rem;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(812px);
+}
+
+
+
+
+.project-title {
+  font-size: var(--font-small);
+  line-height: 1.2;
+  font-weight: bold;
+  color: var(--white);
+}
+
+
+
+.project-description {
+  color: var(--light-gray);
+  font-size: var(--font-xsmall);
+  line-height: 1.8;
+}
+
+.icon-small{
+  width: 3.5rem;
+  height: 3.5rem;
+  margin-right: 0.5rem;
+  color: var(--orange);
+}
+
+
+.tags-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tag {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 1.5rem 0;
+}
+
+.tag-content {
+  /* background-color: var(--surface-light);
+  color: var(--very-dark-gray); */
+  background-color: var(--very-light-orange);
+  color: var(--surface-light);
+  padding: 0.3rem 1.2rem;
+  border-radius: 999999px;
+ font-size: var(--font-xsmall);
+  font-weight: 500;
+}
+
+
+
+.project-links {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.project-link {
+
+  transition: all 0.3s ease;
+}
+
+.project-link:hover {
+  opacity: 0.7;
+    transform: scale(1.5);
+}
+
+
+.project.reverse .project-image {
+  right: auto;
+  left: 0;
+
+  border-radius: 1.2rem;
+  box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.4);
+}
+
+.project.reverse .project-content {
+  margin-left: auto;
+}
+
+

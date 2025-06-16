@@ -1,0 +1,170 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  /* Use a translucent dark background (good over images or light content) */
+  background-color: #453f3f09; /* or var(--surface-dark-translucent) */
+
+  /* Optional: add a blur for a frosted glass effect */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px); /* Safari support */
+
+  /* Nice subtle shadow to separate from content below */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+
+  height: 9.6rem;
+  padding: 0 4.8rem;
+}
+
+.heading-secondary.logo{
+  margin-bottom: 0;
+  color: var(--orange);
+
+}
+
+
+/**************************/
+/* logo styles */
+/**************************/
+.logo {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.logo::after,
+.logo::before {
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  left: 0;
+
+  background: linear-gradient(to right, var(--surface-dark), var(--light-gray));
+
+  transform: scaleX(0);
+  transition: transform 0.4s ease-out;
+}
+
+.logo::before {
+  top: -5px;
+  transform-origin: left;
+}
+
+.logo::after {
+  bottom: -5px;
+  transform-origin: right;
+}
+
+.logo:hover::before {
+  transform: scaleX(1);
+  transform-origin: right;
+}
+
+.logo:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+
+
+
+
+
+
+
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 4.8rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #fdf2e9;
+  font-weight: 500;
+  font-size: var(--font-xsmall);
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color:var(--dark-orange)
+}
+
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+  padding: 1.2rem 2.4rem;
+  border-radius: 9px;
+  color: #421414;
+ 
+  background-color: var(--orange);
+}
+
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
+  background-color:var(--dark-orange);
+}
+
+
+.buttons {
+  position: absolute;
+  right: 4.8rem;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.buttons .bar {
+  width: 2.4rem;
+  height: 0.3rem;
+  background-color: #fdf2e9;
+  margin: 0.4rem 0;
+  transition: all 0.3s;
+}
+
+/* Mobile Navigation */
+@media (max-width: 768px) {
+  .buttons {
+    display: flex;
+  }
+
+  .main-nav {
+    display: none;
+
+  }
+
+  .main-nav.open {
+    display: flex;
+        position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: var(--surface-dark);
+    padding: 3.2rem 4.8rem;
+    flex-direction: column;
+    gap: 2rem;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .main-nav-list {
+    flex-direction: column;
+    gap: 3.2rem;
+  }
+
+
+}

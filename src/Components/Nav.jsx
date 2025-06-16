@@ -1,0 +1,40 @@
+import { useState } from "react";
+import "./Nav.css";
+
+export function Nav() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = (e) => {
+    e.preventDefault();
+    setIsOpen(!isOpen);
+  };
+
+  return (
+    <header className="header">
+      <h2 className="logo  heading-secondary">Etai Wilentzik</h2>
+
+      <nav className={`main-nav ${isOpen ? "open" : ""}`}>
+        <ul className="main-nav-list">
+          <li>
+            <a className="main-nav-link" href="#how">About</a>
+          </li>
+          <li>
+            <a className="main-nav-link" href="#meals">Tech Stack</a>
+          </li>
+          <li>
+            <a className="main-nav-link" href="#testimonials">Selected projects</a>
+          </li>
+          <li>
+            <a className="main-nav-link nav-cta" href="#cta">Reach out</a>
+          </li>
+        </ul> 
+      </nav>
+
+      <a href="#" className="buttons" onClick={toggleMenu}>
+        <span className="bar"></span>
+        <span className="bar"></span>
+        <span className="bar"></span>
+      </a>
+    </header>
+  );
+}
