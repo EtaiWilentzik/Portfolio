@@ -24,8 +24,9 @@
   filter: brightness(0.75);
 }
 .project-section {
- padding: 15.6rem 0;
+ padding: var(--huge-spacing) 0;
 }
+
 
 .project-content {
   position: relative;
@@ -143,7 +144,9 @@
     flex: 0 1 50%;
   }
 
-
+.project{
+   margin: 3.6rem 0;
+}
 
 
 

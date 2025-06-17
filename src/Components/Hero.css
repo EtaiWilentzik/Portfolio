@@ -85,6 +85,9 @@
   .hero{
     margin: 0 3.2rem;
   }
+  .section-hero {
+    padding: 15rem 0;
+  }
   .hero-img {
     width: 70%;
     margin: 0 auto;

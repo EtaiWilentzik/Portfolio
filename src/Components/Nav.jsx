@@ -11,7 +11,10 @@ export function Nav() {
 
   return (
     <header className="header">
-      <h2 className="logo  heading-secondary">Etai Wilentzik</h2>
+<a href="#About" >
+  <h2 className="logo heading-secondary">Etai Wilentzik</h2>
+</a>
+
 
       <nav className={`main-nav ${isOpen ? "open" : ""}`}>
         <ul className="main-nav-list">
