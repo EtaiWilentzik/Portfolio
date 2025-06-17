@@ -147,9 +147,27 @@
 .project{
    margin: 3.6rem 0;
 }
-
-
-
+}
+/* screen under 1100 px */
+@media (max-width: 68.75rem) {
+.project-title{
+  font-size: var(--font-xsmall);
+}
+.project-description {
+  font-size: var(--font-xxsmall);
+  line-height: 1.6;
+}
+.tag-content {
+  font-size: var(--font-xxsmall);
+}
+.container{
+  max-width: 90rem;
+} 
+.project-image {
+width: 90%;
 
 }
+}
+
+/* screen under 900 px */
 

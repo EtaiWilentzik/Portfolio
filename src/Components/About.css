@@ -67,3 +67,10 @@
   max-width: 105rem;
 }
 }
+/*screen under 1100 px */
+@media (max-width: 68.75rem) {
+  .items{
+    grid-template-columns: repeat(4, 1fr);
+
+  }
+}

@@ -8,7 +8,11 @@
 
 }
 
-
+.container-large {
+  max-width: 130rem;
+  margin: 0 auto;
+  
+}
 
 .hero {
   max-width: 130rem;
@@ -27,7 +31,7 @@
 }
 
 .hero-img {
-  width: 90%;
+  width: 80%;
   border-radius: 50%;
 
 }
@@ -102,7 +106,23 @@
     padding-bottom: var(--huge-spacing);
   }
 
+}
+/* screen under 1100 px */
+@media (max-width: 68.75rem) {
 
+  .heading-primary {
+    font-size: var(--font-xmedium);
+  }
+  .hero-description{
+    font-size: var(--font-xsmall);
+  }
+  .hero-img {
+    width: 80%;
+  }
+    html {
+    /* 9px / 16px  */
+    font-size: 56.25%;
+  }
 
-
+  
 }

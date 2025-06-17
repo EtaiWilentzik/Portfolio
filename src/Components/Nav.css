@@ -136,6 +136,23 @@
   transition: all 0.3s;
 }
 
+
+
+
+
+/* under 1100px */
+@media (max-width: 68.75rem) {
+  .logo {
+    font-size: var(--font-xmedium);
+  }
+
+
+}
+
+
+
+
+
 /* Mobile Navigation */
 @media (max-width: 768px) {
   .buttons {
