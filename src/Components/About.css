@@ -3,7 +3,7 @@
     height: 10rem;
     margin-right: 1rem;
     color: var(--orange);
-  font-size: 3.2rem;
+  font-size: var(--font-small);
   margin-bottom: 1rem;
 }
 .tech-stack {
@@ -15,7 +15,9 @@
   font-size: var(--font-xsmall);
 }
 
-
+#techStack {
+  scroll-margin-top: 10rem; 
+}
 
 .main-tech{
   margin-bottom: 4rem;
@@ -44,7 +46,7 @@
   border-radius: 1rem;
   background-color: var(--surface-dark); 
   color: var(--light-gray); 
-  box-shadow: 0 1rem 2rem rgba(241, 127, 66, 0.15); /* orange glow */
+  box-shadow: 0 1rem 2rem rgba(241, 127, 66, 0.15); 
   border: 1px solid rgba(255, 255, 255, 0.05);
   font-size: 1.4rem;
   transition: transform 0.3s ease;
@@ -54,4 +56,14 @@
   transform: translateY(-5px);
   box-shadow: 0 2rem 3rem rgba(241, 127, 66, 0.25);
 }
+/* screen under 1300 px */
+@media (max-width: 81.25rem) {
 
+.icon{
+  height: 5rem;
+  width: 5rem;
+}
+.container {
+  max-width: 105rem;
+}
+}

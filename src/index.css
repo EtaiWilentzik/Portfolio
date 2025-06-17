@@ -87,7 +87,14 @@ Medium: 11px
   --font-medium: 4.4rem;        /* Subheading */
   --font-small: 3rem;           /* Section title */
   --font-xsmall: 2rem;          /* Body / paragraph */
-  --font-xxsmall: 1.6rem;       /* Small text, labels */
+  --font-xxsmall: 1.6rem; 
+  --font-xxxsmall:1.4rem      /* Small text, labels */
+
+  --small-spacing: 1.6rem; /* Small spacing */
+  --medium-spacing: 3.2rem; /* Medium spacing */
+  --large-spacing: 4.8rem; /* Large spacing */
+  --extra-large-spacing: 6.4rem; /* Extra large spacing */
+  --huge-spacing: 9.6rem; /* Huge spacing */
 }
 
 html {
@@ -185,13 +192,13 @@ body {
 }
 
 .heading-secondary {
-  font-size: 4.4rem;
+  font-size: var(--font-medium);
   line-height: 1.2;
   margin-bottom: 9.6rem;
 }
 
 .heading-tertiary {
-  font-size: 3rem;
+  font-size: var(--font-small)  ;
   line-height: 1.2;
   margin-bottom: 3.2rem;
 }
@@ -247,9 +254,9 @@ body {
 
 .btn--outline:hover,
 .btn--outline:active {
-  background-color: #fdf2e9;
+  background-color: #fffdf6;
 
-  /* border: 3px solid #fff; */
+
 
   /* Trick to add border inside */
   box-shadow: inset 0 0 0 3px #fff;
@@ -322,7 +329,7 @@ strong {
   font-weight: 500;
 }
 .margin-bottom-md {
-  margin-bottom: 4.8rem !important;
+  margin-bottom: 4.8rem 
 }
 .bold {
   font-weight: 700;

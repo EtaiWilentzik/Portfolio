@@ -14,18 +14,18 @@ export function Footer() {
 
       <div className="footer-links">
  
-<a href="mailto:etaiwil2000@gmail.com" className="mail" aria-label="Email">
+<div href="mailto:etaiwil2000@gmail.com" className="mail" aria-label="Email">
   <LuMails className="icon-footer" />
   <span>etaiwil2000@gmail.com</span>
-</a>
+</div>
 
 
 
          <div className="icons">
-               <a href="https://github.com" target="_blank" className="icon-footer" aria-label="GitHub">
+               <a href="https://github.com/EtaiWilentzik" target="_blank" className="icon-footer" aria-label="GitHub">
           <FaGithub />
         </a>
-        <a href="https://linkedin.com" target="_blank" className="icon-footer" aria-label="LinkedIn">
+        <a href="https://www.linkedin.com/in/etai-wilentzik/" target="_blank" className="icon-footer" aria-label="LinkedIn">
           <FaLinkedin />
         </a>
             

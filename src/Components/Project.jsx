@@ -5,7 +5,7 @@ import { FaGithub } from "react-icons/fa6";
 
 export function Project() {
   return (
-    <section className="container project-section">
+    <section className="container project-section" id="projects">
    <h2 className="heading-secondary center-text margin-bottom-md ">Selected projects </h2>
 
       {projects.map((project, index) => (

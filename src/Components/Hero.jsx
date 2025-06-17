@@ -4,7 +4,7 @@ import { FaGithub,FaLinkedin } from "react-icons/fa6";
 
 export function Hero() {
   return (
-    <section className="section-hero">
+    <section className="section-hero" id="About">
       <div className="hero">
         <div className="hero-text-box">
           <h1 className="heading-primary">

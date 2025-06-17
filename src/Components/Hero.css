@@ -8,6 +8,8 @@
 
 }
 
+
+
 .hero {
   max-width: 130rem;
   margin: 0 auto;
@@ -75,10 +77,29 @@
   font-weight: 700;
 
 }
-.margin-right-sm {
-  margin-right: 1.6rem !important;
-}
 
-.margin-bottom-md {
-  margin-bottom: 4.8rem !important;
+
+/* screen under 1300 px */
+@media (max-width: 81.25rem) {
+
+  .hero{
+    margin: 0 3.2rem;
+  }
+  .hero-img {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .heading-primary{
+    font-size: var(--font-medium);
+  }
+  .hero-description {
+    font-size: var(--font-xxsmall);
+  }
+  .section-hero {
+    padding-bottom: var(--huge-spacing);
+  }
+
+
+
+
 }

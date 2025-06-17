@@ -16,13 +16,13 @@ export function Nav() {
       <nav className={`main-nav ${isOpen ? "open" : ""}`}>
         <ul className="main-nav-list">
           <li>
-            <a className="main-nav-link" href="#how">About</a>
+            <a className="main-nav-link" href="#About">About</a>
           </li>
           <li>
-            <a className="main-nav-link" href="#meals">Tech Stack</a>
+            <a className="main-nav-link" href="#techStack">Tech Stack</a>
           </li>
           <li>
-            <a className="main-nav-link" href="#testimonials">Selected projects</a>
+            <a className="main-nav-link" href="#projects">Selected projects</a>
           </li>
           <li>
             <a className="main-nav-link nav-cta" href="#cta">Reach out</a>

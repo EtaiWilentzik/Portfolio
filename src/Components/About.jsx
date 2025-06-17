@@ -14,7 +14,7 @@ export default function About() {
 function TechStack() {
     return (
         <section >
-        <div className="tech-stack container "> 
+        <div className="tech-stack container " id="techStack"> 
             <h2 className="heading-secondary margin-bottom-md center-text">Technologies I have worked with</h2>
             {techStack.map((tech, index) => {
                 const category = tech.category;

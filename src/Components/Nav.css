@@ -92,7 +92,7 @@
 .main-nav-link:visited {
   display: inline-block;
   text-decoration: none;
-  color: #fdf2e9;
+  color: var(--white);
   font-weight: 500;
   font-size: var(--font-xsmall);
   transition: all 0.3s;
@@ -131,7 +131,7 @@
 .buttons .bar {
   width: 2.4rem;
   height: 0.3rem;
-  background-color: #fdf2e9;
+  background-color: var(--light-gray);
   margin: 0.4rem 0;
   transition: all 0.3s;
 }
