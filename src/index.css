@@ -85,6 +85,7 @@ Medium: 11px
   /* Font Sizes */
   --font-large: 5.2rem;         /* Headline */
   --font-medium: 4.4rem;        /* Subheading */
+  --font-lmedium: 4rem;          /* Section title */
   --font-xmedium: 3.6rem;       /* Section title */
   --font-small: 3rem;           /* Section title */
   --font-xsmall: 2rem;          /* Body / paragraph */

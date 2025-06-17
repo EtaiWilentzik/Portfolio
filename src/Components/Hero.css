@@ -111,7 +111,7 @@
 @media (max-width: 68.75rem) {
 
   .heading-primary {
-    font-size: var(--font-xmedium);
+    font-size: var(--font-lmedium);
   }
   .hero-description{
     font-size: var(--font-xsmall);

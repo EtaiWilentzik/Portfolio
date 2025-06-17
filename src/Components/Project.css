@@ -170,4 +170,7 @@ width: 90%;
 }
 
 /* screen under 900 px */
+@media (max-width: 56.25rem) {
+
+}
 
