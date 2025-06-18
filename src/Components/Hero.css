@@ -28,6 +28,7 @@
   font-size: var(--font-xsmall);
   line-height: 1.6;
   margin-bottom: 2.8rem;
+  
 }
 
 .hero-img {
@@ -125,4 +126,52 @@
   }
 
   
+}
+
+/* screen under 900 px */
+@media (max-width: 56.25rem) {
+  .hero {
+    grid-template-columns: 1fr;
+    max-width: 60rem;
+    margin: 0 auto;
+    justify-items: center; /* This centers the grid items within their cells */
+    gap: 4.8rem;
+  
+  }
+  .hero-img {
+    width: 40%;
+    margin: 0 auto;
+  }
+  .hero-description {
+    font-size: var(--font-xxsmall);
+    margin-bottom: 2.4rem;
+  }
+  .delivered-meals {
+    flex-direction: column;
+    align-items: center;
+  }
+  .section-hero{
+      padding-bottom: var(--large-spacing);
+  }
+.hero-img-box {
+  justify-self: center;
+  display: flex;        /* ADD THIS */
+  justify-content: center; /* ADD THIS */
+}
+  .hero-text-box {
+    text-align: center;
+    justify-self: center;
+  }
+.btn, .btn:link, .btn:visited {
+
+  padding: 1.2rem 2.4rem;
+  font-size: var(--font-xsmall);
+}
+}
+
+/* screen under 600 px */
+@media (max-width: 37.5rem) {
+.heading-primary{
+  font-size: var(--font-xmedium);
+}
 }

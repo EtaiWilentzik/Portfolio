@@ -74,3 +74,30 @@
 
   }
 }
+
+
+
+/* screen under 900 px */
+@media (max-width: 56.25rem) {
+  .container {
+    max-width: 60rem;
+  }
+.heading-secondary {
+    font-size: var(--font-small);
+  }
+   .items{
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .icon{
+    height: 4rem;
+    width: 4rem;
+  }
+  .tech-item span {
+    font-size: var(--font-xxsmall);
+}
+html{
+  /* 8px / 16px  */
+  font-size: 50%;
+}
+
+}

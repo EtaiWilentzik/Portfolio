@@ -171,6 +171,33 @@ width: 90%;
 
 /* screen under 900 px */
 @media (max-width: 56.25rem) {
+  .container {
+    max-width: 60rem;
+  }
+.heading-secondary {
+     font-size: var(--font-small);
+  }
+
+.project-image{
+  display: none;
+  flex-grow: 0;
+}
+.project{
+  min-height: auto;
+}
+  .project-content {
+    width: 100%;
+    padding: 2rem;
+  }
+  .project {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .project.reverse .project-content {
+    margin-left: 0;
+  }
 
 }
+
 

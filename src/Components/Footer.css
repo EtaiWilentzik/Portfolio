@@ -70,3 +70,14 @@
   color: var(--orange);
   transform: scale(1.1);
 }
+
+
+/* screen under 900 px */
+@media (max-width: 56.25rem) {
+
+.container-small{
+  max-width: 60rem;
+
+}
+
+}

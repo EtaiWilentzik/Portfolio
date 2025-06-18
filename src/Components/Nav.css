@@ -152,10 +152,10 @@
 
 
 
+/* under 900px */
 
-/* Mobile Navigation */
-@media (max-width: 768px) {
-  .buttons {
+@media (max-width: 56.25rem) {
+    .buttons {
     display: flex;
   }
 
@@ -183,5 +183,10 @@
     gap: 3.2rem;
   }
 
+
+}
+/* under 600px */
+@media (max-width: 37.5rem) {
+/* no need for media query here, as the styles are already responsive */
 
 }
