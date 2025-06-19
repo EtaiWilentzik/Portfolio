@@ -201,3 +201,13 @@ width: 90%;
 }
 
 
+/* screen under 600 px */
+@media (max-width: 37.5rem) {
+.heading-secondary{
+  font-size: var(--font-msmall);
+}
+.project-section{
+      padding-left: 3.2rem;
+  padding-right: 3.2rem;
+}
+}

@@ -101,3 +101,15 @@ html{
 }
 
 }
+/* screen under 600 px */
+@media (max-width: 37.5rem) {
+.heading-secondary{
+  font-size: var(--font-xsmall);
+}
+.category{
+  font-size: var(--font-xsmall);
+}
+.icon{
+  height: 3rem;
+  width: 3rem;}
+}

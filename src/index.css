@@ -1,3 +1,4 @@
+
 /*
 --- 01 TYPOGRAPHY SYSTEM
 
@@ -57,6 +58,10 @@ Medium: 11px
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 */
 
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Inter:wght@400;500;600;700&display=swap');
+
 * {
   padding: 0;
   margin: 0;
@@ -88,6 +93,7 @@ Medium: 11px
   --font-lmedium: 4rem;          /* Section title */
   --font-xmedium: 3.6rem;       /* Section title */
   --font-small: 3rem;           /* Section title */
+  --font-msmall: 2.4rem;        /* Subsection title */
   --font-xsmall: 2rem;          /* Body / paragraph */
   
   --font-xxsmall: 1.8rem; 
@@ -180,7 +186,8 @@ body {
 .heading-primary,
 .heading-secondary,
 .heading-tertiary {
-  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
   color: #333;
   /* color: #45260a; */
   /* color: #343a40; */
