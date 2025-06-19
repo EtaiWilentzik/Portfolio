@@ -33,11 +33,11 @@ export function Nav() {
         </ul> 
       </nav>
 
-      <a href="#" className="buttons" onClick={toggleMenu}>
+<button type="button" className="buttons" onClick={toggleMenu}>
         <span className="bar"></span>
         <span className="bar"></span>
         <span className="bar"></span>
-      </a>
+      </button>
     </header>
   );
 }

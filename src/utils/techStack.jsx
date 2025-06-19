@@ -5,7 +5,7 @@ import {
   FaJava,
   FaJs,
   FaReact,
-  FaNodeJs,
+  
   FaHtml5,
   FaCss3Alt,
   FaGitAlt,

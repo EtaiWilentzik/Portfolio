@@ -126,6 +126,10 @@
   justify-content: center;
   cursor: pointer;
   z-index: 1000;
+   background: none;
+  border: none;
+  color: inherit;
+  cursor: pointer;
 }
 
 .buttons .bar {

@@ -20,10 +20,10 @@ export function Footer() {
           </div>
 
           <div className="icons">
-            <a href="https://github.com/EtaiWilentzik" target="_blank" className="icon-footer" aria-label="GitHub">
+            <a href="https://github.com/EtaiWilentzik" target="_blank" className="icon-footer" aria-label="GitHub" rel="noreferrer">
               <FaGithub />
             </a>
-            <a href="https://www.linkedin.com/in/etai-wilentzik/" target="_blank" className="icon-footer" aria-label="LinkedIn">
+            <a href="https://www.linkedin.com/in/etai-wilentzik/" target="_blank" className="icon-footer" aria-label="LinkedIn" rel="noreferrer">
               <FaLinkedin />
             </a>
           </div>
